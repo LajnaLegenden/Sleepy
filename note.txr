@@ -1,2 +1,2 @@
-pip3 install -U discord.py
+python3 -m pip install -U discord.py
 pip3 install -U python-dotenv

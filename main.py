@@ -48,6 +48,7 @@ async def send():
             for m in vc.members:
                 await m.move_to(kick_channel)
             await kick_channel.delete()
+            del dcTimer[vc];
 
 @send.before_loop
 async def before():
