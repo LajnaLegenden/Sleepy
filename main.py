@@ -54,5 +54,5 @@ async def before():
     await bot.wait_until_ready()
 
 send.start()
-print(os.getenv('DISCORD'))
-bot.run('ODE5NTcwNTY4NTc5Nzc2NTM0.YEoikg.LUiuMat3gNYPf3SwDYqrYdvCUO4')
+
+bot.run(os.getenv('DISCORD'))
